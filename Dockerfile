@@ -1,5 +1,7 @@
 FROM node:10
 
+RUN apt-get update && apt-get -y upgrade &&  apt-get clean
+
 WORKDIR /usr/src/fakeserver
 
 COPY package.json ./
