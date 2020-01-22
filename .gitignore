@@ -1,2 +1,4 @@
 .DS_Store
+cert.pem
+privatekey.pem
 
